@@ -1,0 +1,14 @@
+pipeline{
+
+    agent agent
+
+    stages{
+
+        stage('clone a repo')
+        {
+            git 'remoname'
+        }
+
+    }
+    
+}
